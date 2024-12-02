@@ -9,7 +9,6 @@ def tempopercorrido(h,m):
         nhora-=1
         minutos=60-m+minutosatuais
     duraçaototalm=nhora*60+minutos
-
     return duraçaototalm
 def minutos(duraçaototalm):
     blocos_15=duraçaototalm/15
